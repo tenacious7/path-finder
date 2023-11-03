@@ -1,0 +1,26 @@
+/* Define the loading animation keyframes */
+@keyframes loading {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0);
+      opacity: 0;
+    }
+  }
+  
+  /* Apply the animation to an element */
+  .loading-animation {
+    width: 50px;
+    height: 50px;
+    border: 4px solid #007bff; /* Change the color to your preference */
+    border-top: 4px solid transparent;
+    border-radius: 50%;
+    animation: loading 1s linear infinite; /* 1s duration for 1 second */
+  }
+  
