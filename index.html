@@ -37,6 +37,39 @@
             cursor: pointer;
             margin-top: 20px; /* Adjust the margin-top to center the button vertically */
         }
+        .loading-bar {
+            display: none;
+        }
+        .loading-fill {
+            width: 0;
+            background-color: #007bff;
+            height: 10px;
+            border-radius: 5px;
+        }
+        /* Add CSS for the popup */
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            z-index: 1000;
+            text-align: center;
+        }
+
+        .popup button {
+            display: block;
+            margin: 10px auto;
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -54,9 +87,12 @@
         </div>
         <button id="findPathButton">Find My Path</button>
     </div>
-    <div class="loading-animation"></div>
+    <div class="loading-bar">
+        <div class="loading-fill" id="loadingFill"></div>
+    </div>
     <canvas id="customMap"></canvas>
     <div id="directions"></div>
     <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </body>
 </html>
