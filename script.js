@@ -1,6 +1,125 @@
 
 
-const paths = [
+const paths =
+  {
+        from: "Main Gate",
+        to: "Temple",
+        steps: [
+            "Go straight from Main Gate "
+            “After  moving some distance ,you can see a path towards your left”
+            "Turn left ."
+            “you can see the Temple”
+        ]
+    },
+
+
+{
+        from: "Girls Hostel",
+        to: "Main gate",
+        steps: [
+            "Go straight from Main gate of the hostel",
+            "Move towards your right."
+            “go Straight, Then turn left”
+            “After moving some distance turn towards your right”
+            “After moving a quite Distance you can find the Main gate”
+        ]
+    },
+
+
+{
+        from: "Main Gate",
+        to: "Library",
+        steps: [
+            "Go straight from Main Gate to CRC-1.",
+            "From ther move a small distance ahead."
+            “you can find the Library(Dr.Y.V.N Rao Memorial Library)
+        ]
+    },
+{
+        from: "Main Gate",
+        to: "MBA Block",
+        steps: [
+            "Go straight from Main Gate ",
+            "Turn Left"
+            “Turn Right”
+            “go straight,you can see a cricket ground”
+            “Turn left”
+           “Go Straight”
+           “turn towards your last right lane”
+        ]
+    },
+
+
+
+{
+        from: "Main Gate",
+        to: "Auditorium",
+        steps: [
+            "Go straight from Main Gate to CRC-1.",
+            "You can find the library."
+          “From library turn towards your right”
+          “go straight”
+        ]
+    },
+
+
+{
+        from: "Girls Hostel",
+        to: "Canteen",
+        steps: [
+            "Go straight from Main Gate of the hostel.",
+            "Turn left ."
+            “go,Straight”
+            “you can find a triangle area”
+            “Turn left”
+             “Then turn right”
+        ]
+    },
+
+{
+        from: "Canteen",
+        to: "Mushroom Unit",
+        steps: [
+            "From canteen Move towards your left and go straight",
+            "Turn Right ."
+            “Turn towards your first left lane”
+            “Go straight you can find the mushroom unit"
+        ]
+    },
+
+{
+        from: "Temple",
+        to: "Cricket Ground",
+        steps: [
+            "Go straight from the Temple",
+            "Turn right ."
+           “Go straight you can see the cricket ground”
+        ]
+    },
+
+{
+        from: "Cricket Ground ",
+        to: "Canteen",
+        steps: [
+            "Go straight from the cricket ground.",
+            "Turn left ."
+           “go straight,you can see the temple “
+         “Turn right”
+         “Go straight turn left”
+         “turn right” 
+        ]
+    },
+
+
+{
+        from: "Main Gate",
+        to: "Flag Hosting Area",
+        steps: [
+            "Go straight from Main Gate to ",
+            "After moving a certain distance you can find the Flag hosting area."
+        ]
+    },
+  [
   {
       from: "q",
       to: "w",
