@@ -105,8 +105,8 @@ const paths = [
     ]
 },
 {
-  from: "main gate",
-  to: "mba mess",
+  from: "Main Gate",
+  to: "Mba Mess",
   steps: [
       "Go straight from Main Gate",
       "turn right to the basket ball ground",
@@ -166,7 +166,7 @@ findPathButton.addEventListener("click", async () => {
     showPopup("❌ No directions found. Please check your input.");
   } else {
     // If directions are found, display them in a popup
-    showPopup(`✅️ Path Found!\n\nDirections:\n${directions.join("\n")}`);
+    showPopup(`✅ Path Found!\n\nDirections:\n${directions.join("\n")}`);
   }
 
   // Clear the input fields
