@@ -162,10 +162,10 @@ findPathButton.addEventListener("click", async () => {
 
   if (directions[0] === "No directions found.") {
     // If no path is found, display a message in a popup
-    showPopup("😞 No directions found. Please check your input.");
+    showPopup("❌ No directions found. Please check your input.");
   } else {
     // If directions are found, display them in a popup
-    showPopup(`🚀 Path Found!\n\nDirections:\n${directions.join("\n")}`);
+    showPopup(`✅ Path Found!\n\nDirections:\n${directions.join("\n")}`);
   }
 
   // Clear the input fields
