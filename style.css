@@ -1,5 +1,68 @@
+/* Updated CSS with enhancements */
+/* Example media query for smaller screens (adjust as needed) */
+@media (max-width: 768px) {
+  .direction-image {
+    max-width: 80%; /* Set a smaller max-width for mobile screens */
+    margin: 5px 0; /* Reduce margin for smaller screens */
+  }
+}
 
-/* Add CSS for the popup */
+
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif; /* Use a Google Font or any preferred font */
+  background-color: hwb(0 96% 4%); /* Light gray background color */
+}
+h1, h2, .direction-text {
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+h1 {
+  color: #333; /* Dark text color */
+  font-weight: bold;
+}
+
+.location-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.location-input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid #ccc; /* Border for input fields */
+  border-radius: 8px;
+}
+
+#findPathButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#findPathButton:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.loading-bar {
+  display: none;
+}
+
+.loading-fill {
+  width: 0;
+  background-color: #007bff;
+  height: 10px;
+  border-radius: 5px;
+}
+
 .popup {
   position: fixed;
   top: 50%;
@@ -7,18 +70,37 @@
   transform: translate(-50%, -50%);
   background: white;
   border: 1px solid #ccc;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Increased box shadow */
+  padding: 30px;
   z-index: 1000;
   text-align: center;
+  border-radius: 10px;
 }
+
 .popup button {
   display: block;
-  margin: 10px auto;
+  margin: 20px auto;
   background: #007bff;
   color: white;
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 12px 24px;
+  border-radius: 8px;
   cursor: pointer;
 }
+
+.popup button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+/* Adjust the container size for the image */
+.image-container {
+  max-width: 60%; /* Set the maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Adjust the image size within the container */
+.direction-image {
+  width: 10%; /* Make the image fill the container width */
+  height: 60%; /* Maintain the aspect ratio */
+  margin: 10px 0; /* Add margin to separate images */
+}
+
