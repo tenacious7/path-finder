@@ -10,8 +10,8 @@ const paths = [
     ],
     imagePaths: [
       "frommaingate.jpg", // Replace with actual image URL
-      "image/tdtemple.jpg", // Replace with actual image URL
-      "image/temple.jpg", // Replace with actual image URL
+      "tdtemple.jpg", // Replace with actual image URL
+      "temple.jpg", // Replace with actual image URL
 
     ]
   },
@@ -25,9 +25,9 @@ const paths = [
       "After moving a quite distance, you can find the Main gate"
     ],
     imagePaths: [
-      "images/tdgrlshos.jpg", // Replace with actual image path
-      "images/td twemp,account.jpg", // Replace with actual image path
-      "images/frommaingate.jpg", // Replace with actual image path
+      "tdgrlshos.jpg", // Replace with actual image path
+      "td twemp,account.jpg", // Replace with actual image path
+      "frommaingate.jpg", // Replace with actual image path
     ]
   },
   {
@@ -40,7 +40,7 @@ const paths = [
       "You can see the Temple"
     ],
     imagePaths: [
-      "images/road.jpg", // Replace with actual image path
+      "road.jpg", // Replace with actual image path
       "https://example.com/image2.jpg", // Replace with actual image URL
       "https://example.com/image3.jpg" // Replace with actual image URL
     ]
@@ -54,9 +54,9 @@ const paths = [
       "You can find the Library (Dr. Y.V.N Rao Memorial Library)"
     ],
     imagePaths: [
-      "images/frommaingate (2).jpg", // Replace with actual image path
-      "images/straightcrc1.jpg", // Replace with actual image path
-      "images/IMG_20231122_145240.jpg", // Replace with actual image path
+      "frommaingate (2).jpg", // Replace with actual image path
+      "straightcrc1.jpg", // Replace with actual image path
+      "IMG_20231122_145240.jpg", // Replace with actual image path
     ]
   },
 
@@ -73,10 +73,10 @@ const paths = [
       "inner view of mba block"
     ],
     imagePaths: [
-      "images/frommaingate (2).jpg", // Replace with actual image path
-      "images/righttombamess.jpg", // Replace with actual image path
-      "images/playground.jpg", // Replace with actual image path
-      "images/IMG_20231122_150114.jpg", // Replace with actual image path
+      "frommaingate (2).jpg", // Replace with actual image path
+      "righttombamess.jpg", // Replace with actual image path
+      "playground.jpg", // Replace with actual image path
+      "IMG_20231122_150114.jpg", // Replace with actual image path
 
     ]
   },
@@ -153,7 +153,7 @@ const paths = [
       "Turn right"
     ],
     imagePaths: [
-      "images/cricket_ground.jpg", // Replace with actual image path
+      "cricket_ground.jpg", // Replace with actual image path
       "https://example.com/image26.jpg", // Replace with actual image URL
       "https://example.com/image27.jpg" // Replace with actual image URL
     ]
