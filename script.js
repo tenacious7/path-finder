@@ -1,16 +1,16 @@
 const paths = [
   {
     from: "Main Gate",
-    to: "Temple",
+    to: "crc 2",
     steps: [
       "Go straight from Main Gate",
       "After moving some distance, you can see a path towards your left",
-      "Turn left",
-      "You can see the Temple"
+      "Turn right",
+      "You can see crc2"
     ],
     imagePaths: [
       "frommaingate.jpg", // Replace with actual image URL
-      "tdtemple.jpg", // Replace with actual image URL
+      "frommaingate (2).jpg", // Replace with actual image URL
       "temple.jpg", // Replace with actual image URL
 
     ]
