@@ -4,7 +4,7 @@ const paths = [
     to: "crc 2",
     steps: [
       "Go straight from Main Gate",
-      "After moving some distance, you can see a path towards your left",
+      "After moving some distance, you can see a path towards your right",
       "Turn right",
       "You can see crc2"
     ],
