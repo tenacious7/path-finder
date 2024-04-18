@@ -10,7 +10,7 @@ const paths = [
     ],
     imagePaths: [
       "frommaingate.jpg", // Replace with actual image URL
-      "frommaingate (2).jpg", // Replace with actual image URL
+      "crc12ndstep.jpg", // Replace with actual image URL
       "temple.jpg", // Replace with actual image URL
 
     ]
