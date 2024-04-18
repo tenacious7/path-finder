@@ -1,7 +1,7 @@
 const paths = [
   {
-    from: "Main Gate",
-    to: "crc 2",
+    from: "Main gate",
+    to: "Crc 2",
     steps: [
       "Go straight from Main Gate",
       "After moving some distance, you can see a path towards your right",
