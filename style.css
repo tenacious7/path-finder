@@ -1,106 +1,75 @@
-/* Updated CSS with enhancements */
-/* Example media query for smaller screens (adjust as needed) */
-@media (max-width: 768px) {
-  .direction-image {
-    max-width: 80%; /* Set a smaller max-width for mobile screens */
-    margin: 5px 0; /* Reduce margin for smaller screens */
-  }
-}
-
-
 body {
-  text-align: center;
-  font-family: 'Roboto', sans-serif; /* Use a Google Font or any preferred font */
-  background-color: hwb(0 96% 4%); /* Light gray background color */
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
-h1, h2, .direction-text {
-  transition: color 0.3s ease, font-size 0.3s ease;
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 h1 {
-  color: #333; /* Dark text color */
-  font-weight: bold;
+    color: #333;
 }
 
-.location-inputs {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0;
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
-.location-input {
-  margin: 10px 0;
-  padding: 10px;
-  border: 2px solid #ccc; /* Border for input fields */
-  border-radius: 8px;
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
-#findPathButton {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-top: 20px;
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-#findPathButton:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+button:hover {
+    background: #0056b3;
 }
 
-.loading-bar {
-  display: none;
+#loading-bar {
+    display: none;
+    width: 100%;
+    height: 5px;
+    background: #007bff;
+    animation: loading 2s infinite;
 }
 
-.loading-fill {
-  width: 0;
-  background-color: #007bff;
-  height: 10px;
-  border-radius: 5px;
+@keyframes loading {
+    0% { width: 0; }
+    100% { width: 100%; }
 }
 
-.popup {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: white;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Increased box shadow */
-  padding: 30px;
-  z-index: 1000;
-  text-align: center;
-  border-radius: 10px;
+#directions {
+    margin-top: 20px;
+    text-align: left;
 }
 
-.popup button {
-  display: block;
-  margin: 20px auto;
-  background: #007bff;
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 8px;
-  cursor: pointer;
+#image-container {
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background: #ddd;
 }
 
-.popup button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+#panorama {
+    width: 100%;
+    height: 100%;
 }
-/* Adjust the container size for the image */
-.image-container {
-  max-width: 60%; /* Set the maximum width for the container */
-  margin: 0 auto; /* Center the container horizontally */
-}
-
-/* Adjust the image size within the container */
-.direction-image {
-  width: 10%; /* Make the image fill the container width */
-  height: 60%; /* Maintain the aspect ratio */
-  margin: 10px 0; /* Add margin to separate images */
-}
-
