@@ -1,40 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Custom Map</title>
+    <title>Interactive Pathfinder</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to Centurion University Of Technology and Management</h1>
-    <!-- Add the image with the provided URL -->
-    <img src="https://th.bing.com/th/id/OIP.KYLzNfR7sqyhGUyTfhKdmAAAAA?pid=ImgDet&rs=1" alt="Your Custom Map Image" height="300px">
-    <div class="location-inputs">
-        <div class="location-input">
-            <label for="from">From:</label>
-            <input type="text" id="from" placeholder="Enter your current location">
+    <div class="container">
+        <h1>Find Your Way 🚀</h1>
+        <div class="input-section">
+            <input type="text" id="from" placeholder="Starting Location">
+            <input type="text" id="to" placeholder="Destination">
+            <button id="findPathButton">Find Path</button>
         </div>
-        <div class="location-input">
-            <label for="to">To:</label>
-            <input type="text" id="to" placeholder="Enter your destination">
+
+        <div id="loading-bar"></div>
+        <div id="directions"></div>
+
+        <div id="image-container">
+            <div id="panorama"></div>
         </div>
-        <button id="findPathButton">Find My Path</button>
     </div>
-    <div class="image-container">
-        <img class="direction-image" src="image.jpg" alt="Direction Image">
-      </div>
-      
-    <img src="images alt="Your Custom Map Image" height="300px">
 
-    <div class="loading-bar">
-        <div class="loading-fill" id="loadingFill"></div>
-    </div>
-    <!-- Update the HTML code where images are displayed -->
-
-
-    <div id="directions"></div>
     <script src="script.js"></script>
 </body>
 </html>
