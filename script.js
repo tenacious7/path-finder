@@ -8,9 +8,9 @@ const paths = [
             "You can find the Library"
         ],
         imagePaths: [
-            "images/main_gate.jpg",
-            "images/crc1.jpg",
-            "images/library.jpg"
+            "images/IMG_20231122_162414.jpg",
+            "images/IMG_20231122_162414.jpg",
+            "images/IMG_20231122_162414.jpg"
         ]
     }
 ];
